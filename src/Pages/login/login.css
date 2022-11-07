@@ -1,0 +1,132 @@
+.login-container-section{
+	display: flex;
+}
+.login-left{
+	width: 7%;
+	background-color: #444;
+}
+.login-right{
+	width: 7%;
+	background-color: #444;
+}
+.login-center{
+	width: 86%;
+
+}
+
+.login-container{
+	display: flex;
+   justify-content: center;
+   background-color: #ddd;
+   height: 600px;
+}
+
+.login-container form{
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 10px;
+   width: 430px;
+   height: 490px;
+   box-shadow: 2px 2px 10px #eee;
+
+}
+	
+
+.login-container form input[type="mail"] {
+
+	padding: 16px 20px;
+	margin: 15px;
+	background-color: #fff;
+	border: 1px solid cadetblue;
+	outline-color: cadetblue;
+	border-radius: 7px;
+	font-size: 18px;
+	width: 90%;
+}
+.login-container form input[type="password"] {
+
+	padding: 16px 20px;
+	margin: 15px;
+	background-color: #fff;
+	border: 1px solid cadetblue;
+	outline-color: cadetblue;
+	border-radius: 7px;
+	font-size: 18px;
+	width: 90%;
+}
+
+.login-container form button{
+	background-color: #1877f2;
+	border-radius: 7px;
+	padding: 16px;
+	margin: 15px;
+	color: #eeee;
+	font-size: 25px;
+	font-weight: 700;
+	outline: 0;
+	border: 0;
+}
+.login-container form button:active{
+	background-color: #3b5998;
+	outline: 3px solid  #1877f2;
+
+}
+.saludo{
+	 background-color: #ddd;
+}
+.saludo h1{
+   font-family: poppins;
+   color: #1877f2;
+   font-size: 66px;
+   text-align: center;
+   padding: 66px 1px 1px 1px;
+   font-weight: 600;
+  
+
+
+}
+.saludo h5{
+   font-family: sans-serif;
+   color: #444;
+   font-size: 27px;
+   text-align: center;
+   font-weight: 200;
+   padding: 0 28px 5px 28px;
+
+}
+.alert a{
+	text-align: center;
+	color: #1877f2;
+	padding: 0 16px 0 0;
+
+
+}
+.alert{
+	display: flex;
+	justify-content: center;
+	
+    height: 65px;
+	border-bottom: 1px solid #bbb;
+	width: 90%;
+	margin: auto;
+}
+input[type='submit']{
+   	padding: 12px;
+	margin: 25px auto 15px auto;
+	background-color: #15c62a;
+	
+	border-radius: 7px;
+	border: 0;
+	font-size: 15px;
+	color: #fff;
+	width: 40%;
+
+}
+input[type='submit']:active{
+	background-color: green;
+	outline: 3px solid  #15c62a;
+
+}
